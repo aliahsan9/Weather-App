@@ -1,0 +1,13 @@
+body{
+    background-image: url('img.jpg');
+}
+.input-group{
+    position: relative;
+    top: 50px;
+    left: 30vw;
+    width: 40vw;
+}
+.weather-status{
+    position: relative;
+    top: 70px;
+}

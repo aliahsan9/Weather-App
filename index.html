@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="input-group flex-nowrap">
+      <span class="input-group-text" id="addon-wrapping">
+        <img src="location-56.png" alt="location-logo" height="30px">
+      </span>
+      <input type="text" id="city-name" class="form-control" placeholder="Enter a city name..." aria-label="City name" aria-describedby="addon-wrapping">
+      <button class="btn btn-danger" type="button" onclick="searchTemperature()">Search</button>
+    </div>
+
+    <div class="weather-status text-white text-center">
+      <img id="image-icon" src="clouds.png" alt="clouds" height="60px" width="60px">
+      <h1 id="city">Lahore</h1>
+      <h3><span id="temp">38.06</span>&deg;C</h3>
+      <h1 class="lead" id="weather">Clouds</h1>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
